@@ -1,5 +1,5 @@
 const OPENROUTER_API_KEY = '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';
-const AI_MODEL = 'deepseek-ai/deepseek-coder:6.7b-instruct';
+const AI_MODEL = 'mistralai/mixtral-8x7b-instruct'; // Free alternative;
 
 class AttackGenerator {
     generateAttackName(prompt) {
